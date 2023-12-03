@@ -22,7 +22,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ### Links
 
-- [Live Site URL](https://thethirdremegio.github.io/Frontend-Mentor-QR-Code-Component/)
+- [Live Site URL](https://thethirdremegio.github.io/Frontend-Mentor-FAQ-Accordion/)
 
 ## My process
 
@@ -34,7 +34,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 ## Author
 
-- Website - [the_iii](https://thethirdremegio.github.io/Frontend-Mentor-QR-Code-Component/)
+- Website - [the_iii](https://thethirdremegio.github.io/Frontend-Mentor-FAQ-Accordion/)
 - Frontend Mentor - [@TheThirdRemegio](https://www.frontendmentor.io/profile/TheThirdRemegio)
 
 ## Acknowledgments
