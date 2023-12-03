@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Work Sans';
+  src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf) format("truetype"); }
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  background-color: #f9f0ff;
+  font-family: 'Work Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  html p, body p {
+    font-size: .9rem;
+    color: #8c6991;
+    margin: 0;
+    line-height: 1.5; }
+    @media only screen and (min-width: 376px) {
+      html p, body p {
+        font-size: .94rem; } }
+  html button, body button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit; }
+  html hr, body hr {
+    color: #f9f0ff;
+    width: calc(100% - 3rem); }
+
+.bg {
+  position: absolute;
+  height: 33%;
+  width: 100%;
+  align-self: flex-start;
+  z-index: 5; }
+  @media only screen and (min-width: 376px) {
+    .bg {
+      height: 34%; } }
+  .bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+main {
+  width: clamp(327.333px, 80%, 540px);
+  min-height: 60%;
+  border-radius: .5rem;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 2rem 2rem 0 rgba(140, 105, 145, 0.33); }
+
+#faq h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 2rem;
+  color: #2f1533; }
+  @media only screen and (min-width: 376px) {
+    #faq h1 {
+      font-size: 3rem; } }
+#faq h2 {
+  font-size: 1rem;
+  color: #2f1533; }
+#faq div {
+  margin: 1.5rem; }
+#faq .header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; }
+  #faq .header img {
+    width: 25px;
+    height: 25px; }
+    @media only screen and (min-width: 376px) {
+      #faq .header img {
+        width: 34px;
+        height: 34px; } }
+#faq .qna {
+  margin: 1rem 1.5rem; }
+  #faq .qna button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    text-align: left; }
+    #faq .qna button:hover h2, #faq .qna button:focus h2 {
+      color: #ad28eb; }
+#faq .response {
+  visibility: hidden;
+  height: 0;
+  margin: 0; }
+
+.show {
+  visibility: visible !important;
+  height: 100% !important; }
+  .show p {
+    margin: .75rem 0 1.5rem 0 !important; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: .5rem; }
+  .attribution a {
+    color: #3e52a3; }
+
+/*# sourceMappingURL=output.css.map */

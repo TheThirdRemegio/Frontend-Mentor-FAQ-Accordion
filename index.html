@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | FAQ accordion</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+  <script src="./toggleResponse.js" defer></script>
+</head>
+<body>
+
+  <div class="bg">
+    <img src="./assets/images/background-pattern-desktop.svg" alt="Background design element">
+  </div>
+
+  <main>
+    <div id="faq">
+      <div class="header">
+        <img src="./assets/images/icon-star.svg" alt="Star icon to begin FAQs page">
+        <h1>FAQs</h1>
+      </div>
+      <div class="qna">
+        <button onclick="toggleResponse(this)">
+          <h2>What is Frontend Mentor, and how will it help me?</h2>
+          <img class="toggle-icon" src="./assets/images/icon-plus.svg" alt="Button icon to toggle response text">
+        </button>
+        <div class="response">
+          <p>
+            Frontend Mentor offers realistic coding challenges to help developers improve their
+            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
+            all levels and ideal for portfolio building.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="qna">
+        <button onclick="toggleResponse(this)">
+          <h2>Is Frontend Mentor free?</h2>
+          <img class="toggle-icon" src="./assets/images/icon-plus.svg" alt="Button icon to toggle response text">
+        </button>
+        <div class="response">
+          <p>
+            Yes, Frontend Mentor offers both free and premium coding challenges, with the free
+            option providing access to a range of projects suitable for all skill levels.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="qna">
+        <button onclick="toggleResponse(this)">
+          <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
+          <img class="toggle-icon" src="./assets/images/icon-plus.svg" alt="Button icon to toggle response text">
+        </button>
+        <div class="response">
+          <p>
+            Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+            way to showcase your skills to potential employers!
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="qna">
+        <button onclick="toggleResponse(this)">
+          <h2>How can I get help if I'm stuck on a challenge?</h2>
+          <img class="toggle-icon" src="./assets/images/icon-plus.svg" alt="Button icon to toggle response text">
+        </button>
+        <div class="response">
+          <p>
+            The best place to get help is inside Frontend Mentor's Discord community. There's a help
+            channel where you can ask questions and seek support from other community members.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </main>
+
+  <div id="main-shadow"></div>
+  <!-- DIV with size of <main> for box-shadow of
+  lowest z-index without casting shadow on div.bg -->
+</body>
+</html>
